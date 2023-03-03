@@ -3,6 +3,7 @@ public class Main {
 
         System.out.println("Welcome to the DMV!");
         int number = (int)Math.floor(Math.random() * 199);
+        int miracle = (int)Math.floor(Math.random() * 100);
         System.out.println("You are number :"+ number);
         int callingNumber = number +1;
 
@@ -17,6 +18,9 @@ public class Main {
             }
 
         }
-        System.out.println("You FOOL! You are missing half of the documents... BYE BYE! NEXT!");
+        if(miracle == 7) {System.out.println("Alright, everything is here, you are all set!");}
+        else {
+            System.out.println("You FOOL! You are missing half of the documents... BYE BYE! NEXT!");
+        }
     }
 }
