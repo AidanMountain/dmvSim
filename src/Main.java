@@ -17,6 +17,6 @@ public class Main {
             }
 
         }
-        System.out.println("You idiot, you are missing half of the documents... NEXT!");
+        System.out.println("You FOOL! You are missing half of the documents... BYE BYE! NEXT!");
     }
 }
